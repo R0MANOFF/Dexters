@@ -9,18 +9,19 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <!--------- HEADER ---------
-    ---------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--------- HEADER --------------
+    --------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-white">
             <a class="navbar-brand" href="#">
-                <img src="" width="30" height="30" class="d-inline-block align-top" alt=""> DEXTERSLab
+                <img src="img/Logo Principal1.png" width="30" height="30" class="d-inline-block align-top " alt="">DEXTERSLab
             </a>
         </nav>
 
@@ -29,33 +30,59 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Sobre
               </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                        <a class="dropdown-item" href="#">DEXTERS</a>
+                        <a class="dropdown-item" href="#">Integrantes</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Acadêmico
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Publicações</a>
+                        <a class="dropdown-item" href="#">Projetos</a>
                 </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Notícias</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Mídias</a>
+                </li>
+
+                <div id="button-contact">
+                    <button type="button" class="btn btn-info">Contato</button>
+                </div>
             </ul>
 
-        </div>
+            </div>
+
     </nav>
+    <!---------------------------->
 
 
-    <!------------------------------->
+
+    <!--------- BODY --------------
+    --------------------------------->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 img-responsive " src="img/slide1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
 </html>
