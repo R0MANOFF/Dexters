@@ -1,20 +1,64 @@
-    /*
+        /*
   Theme Name: DEXTERSLab
   Author: Nathasha Pinto
 
 */
-    /* ===== HEADER ======*/
-    
-    #button-contact {
-        margin-left: 50px;
-        margin-right: 20px;
-    }
-    
-    .nav-force {
-        float: right;
-    }
-    /*====================*/
-    /* ===== BODY ======*/
-    /*====================*/
-    /* ===== FOOTER ======*/
-    /*====================*/
+        /* ====== GENERAL ======*/
+        /* ====================*/
+        /* ===== HEADER ======*/
+        
+        #button-contact {
+            margin-left: 50px;
+            margin-right: 20px;
+        }
+        
+        .nav-force {
+            float: right;
+        }
+        /*====================*/
+        /* ===== BODY ======*/
+        
+        #slide-img {
+            filter: blur(2px);
+        }
+        
+        .carousel-item {
+            height: 50vh;
+            min-height: 300px;
+        }
+        
+        .w-100 {
+            height: 100vh;
+        }
+        
+        @media only screen and (max-width: 1199px) {}
+        
+        @media only screen and (max-width: 991px) {
+            .carousel-caption h1 {
+                font-size: 40px;
+            }
+            .carousel-caption p {
+                font-size: 15px;
+            }
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .carousel-caption h1 {
+                font-size: 30px;
+            }
+            .carousel-caption p {
+                font-size: 13px;
+            }
+        }
+        
+        @media only screen and (max-width: 575px) {
+            .carousel-caption h1 {
+                font-size: 20px;
+            }
+            .carousel-caption p {
+                font-size: 11px;
+            }
+        }
+        /*====================*/
+        /* ===== FOOTER ======*/
+        /*====================*/
