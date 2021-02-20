@@ -11,13 +11,16 @@
             margin-left: 50px;
             margin-right: 20px;
         }
+        #logo{
+            margin-right: 10px;
+        }
         /*====================*/
         /* ===== BODY ======*/
         
         #slide-img {
             filter: blur(2px);
         }
-        
+       
         .carousel-item {
             height: 50vh;
             min-height: 300px;
@@ -27,28 +30,51 @@
             height: 100vh;
         }
         
-        .about-dexters {
+
+        . {
             background-color: #EEEEEE;
+            padding: 10px;
         }
+
+       
         
-        .letf-img {
-            display: inline-block;
-        }
+       .row{
+           display: flex;
+           flex-wrap: wrap;
+       }
+       .row .col{
+            flex: 33.3%;
+            width: auto;
+            overflow: hidden;
+            padding: 0 4px;
+            height: 100%;
+       }
+       
+       .row .col img{
+           width: 100%;
+           height: 100%;
+            margin-top: 2%;
+            border-radius: 5px;
+       }
         
         #img-1 {
-            height: 175px;
-            width: 200px;
+            
         }
         
         #img-2 {
-            height: 375px;
-            width: 500px;
+           
         }
         
-        img {
-            height: 175px;
-            width: 200px;
+        #img-3 {
+           
         }
+        
+        #img-4 {
+            
+        }
+
+        
+        
         /*========== media queries =============*/
         
         @media only screen and (max-width: 1199px) {}
@@ -69,6 +95,9 @@
             .carousel-caption p {
                 font-size: 13px;
             }
+            .row .col{
+                flex: 50%;
+            }
         }
         
         @media only screen and (max-width: 575px) {
@@ -77,6 +106,9 @@
             }
             .carousel-caption p {
                 font-size: 11px;
+            }
+            .row .col{
+                flex: 100%;
             }
         }
         /*====================*/
