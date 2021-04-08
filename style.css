@@ -1,19 +1,17 @@
         /*
   Theme Name: DEXTERSLab
-  Author: Nathasha Pinto
+  Author: PETComp
 
 */
 
     /* ===== HEADER ======*/
-    
-    #button-contact {
-        margin-left: 50px;
-        margin-right: 20px;
-    }
+
     
     .nav-force {
         float: right;
     }
+
+  
     /*====================*/
     /* ===== BODY ======*/
         /* ===== INDEX ===== */
@@ -39,6 +37,32 @@
                 font-weight:400;
             }
 
+            #slide-img{
+                filter: blur(1.5px);
+                max-height: 400px;
+            }
+
+            .carousel-caption{
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            .dexter-desc{
+                font-size: 38px;
+                margin: 0px;
+            }
+            .dexter-desc-sub{
+                font-size: 22px;
+                padding: 0px;
+                margin: 0px;
+                margin-bottom: 3px;
+            }
+
+            .button-cr{
+                font-size: 15px;
+                padding-left: 2px;
+                padding-right: 2px;
+                margin: 0px;
+            }
         /*====================*/
 
         /* ===== NEWS ===== */
@@ -184,7 +208,6 @@
          
          
         
-        
         /* =============================== */
     
     /*====================*/
@@ -215,3 +238,164 @@
     }
 
     /*====================*/
+
+
+    /*site responsivo*/
+
+    @media only screen and (max-width: 1025px) {
+        .dexter-desc{
+            font-size: 35px;
+            margin: 0px;
+            margin-bottom: 40px;
+        }
+        .dexter-desc-sub{
+            font-size: 20px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 801px) {
+        .dexter-desc{
+            font-size: 25px;
+            margin: 0px;
+        }
+        .dexter-desc-sub{
+            font-size: 16px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .carousel-caption{
+            position: absolute;
+            right: 10%;
+            bottom: 10px;
+            left: 10%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           
+        }
+        .button-cr{
+            font-size: 12px;
+            padding-left: 2px;
+            padding-right: 2px;
+            margin: 0px;
+        }
+
+        .btn{
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .dexter-desc{
+            font-size: 16px;
+            margin: 0px;
+        }
+        .dexter-desc-sub{
+            font-size: 12px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .carousel-caption{
+            position: absolute;
+            right: 10%;
+            bottom: 10px;
+            left: 10%;
+            padding-top: 10px;
+            padding-bottom: 10px;           
+        }
+
+        .button-cr{
+            font-size: 12px;
+            padding-left: 2px;
+            padding-right: 2px;
+            margin: 0px;
+        }
+
+        .btn{
+            padding: 0px;
+            margin: 0px;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 460px) {
+        .dexter-desc{
+            font-size: 14px;
+            margin: 0px;
+        }
+        .dexter-desc-sub{
+            font-size: 12px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .carousel-caption{
+            position: absolute;
+            right: 5%;
+            bottom: 5px;
+            left: 5%;
+            padding-top: 0px;
+            padding-bottom: 0px;
+           
+        }
+        .button-cr{
+            font-size: 10px;
+            padding-left: 2px;
+            padding-right: 2px;
+            margin: 0px;
+        }
+
+        .btn{
+            padding: 0px;
+            margin: 0px;
+        }
+        .p{
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 360px) {
+        .dexter-desc{
+            font-size: 14px;
+            margin: 0px;
+        }
+        .dexter-desc-sub{
+            font-size: 10px;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+
+        .carousel-caption{
+            position: absolute;
+            right: 5%;
+            bottom: 5px;
+            left: 5%;
+            padding-top: 0px;
+            padding-bottom: 0px;
+           
+        }
+        .button-cr{
+            font-size: 10px;
+            padding-left: 1px;
+            padding-right: 1px;
+            margin: 0px;
+        }
+        .br{
+            line-height: 0px;
+        }
+        .btn{
+            padding: 0px;
+            margin: 0px;
+        }
+        .p{
+            margin: 0px;
+            padding: 0px;
+        }
+    }
